@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,7 +12,7 @@ Fonts are separated by a & */
   --accent2-color: #2d3047;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Caveat";
+  --heading-font: "Rock Salt";
   --paragraph-font: Caveat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */

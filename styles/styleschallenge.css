@@ -1,0 +1,20 @@
+img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+} 
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center; 
+}
+body{
+    background-color: pink;
+}
+h1:hover{
+    color: black
+}

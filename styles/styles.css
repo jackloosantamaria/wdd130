@@ -1,9 +1,10 @@
-body {
+/* body {
     text-align: center;
-}
+} */
 nav {
     background-color:steelblue;
     padding:10px;
+    text-align: center;
     }
 a{
     font-size: 1.5em;
@@ -12,10 +13,13 @@ a{
 }
 h1{
     color: steelblue;
+    text-align: center;
 }
 img{
     width: 80%;
     border: 4px solid steelblue;
+    
+    margin: 0 auto;
 }
 p{
     padding: 10px;
@@ -23,6 +27,7 @@ p{
 footer{
     background-color: steelblue;
     color: white;
+    text-align: center;
 }
 .main-para{
     font-size: 1.5em;
@@ -32,3 +37,6 @@ footer{
     backgroud-color: white;
     color: steelblue;
 }
+/* *{
+    border: 2px solid blue;
+} */

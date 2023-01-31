@@ -1,0 +1,43 @@
+#background{
+    height: 250px;
+    background-color: gray;
+    margin: -4px;
+    width: 100%;
+    text-align: center;
+    
+}
+body{
+    width: 100%;
+}
+#heroimage{
+    width: 100%;
+    text-align: center;
+}
+.heroimage2{
+    width: 16%;
+    float: left;
+    padding: 1px;
+    border-radius: 50%;
+    border: 5px solid darkgray;
+    margin-left: 8%;
+    margin-top: 1.35%;
+}
+.heroimage3{
+    width: 16%;
+    float: left;
+    padding: 1px;
+    border-radius: 50%;
+    border: 5px solid darkgray;
+    margin: 200px;
+    margin-top: 1.35%;    
+}
+.heroimage4{
+    width: 16%;
+    float:left;
+    padding: 1px;
+    border-radius: 50%;
+    border: 5px solid darkgray;
+    margin-top: 1.35%;
+    margin-right: 20px
+
+}

@@ -8,6 +8,7 @@ nav a{
     text-align: center;
     color: #fbf9ff;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -24,6 +25,13 @@ main section{
 }
 body{
     background-color: #fbf9ff;
+    font-family: 'Caveat', 'Helvetica', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #628395;
@@ -39,6 +47,8 @@ nav a:hover{
     background-color: #cf995f;
     color: #fbf9fb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover{
     background-color: #fbf9ff;
@@ -46,21 +56,29 @@ nav a:hover{
 }
 .msg{
     background-color: #2d3047;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title{
     color: black;
+    font-family: 'Rock Salt', 'Helvetica' , 'sans-serif';
+    font-size: 2em;
 }
 h4{
     color: black;
 }
 .msg h2{
     color: #fbf9ff;
+    font-family: 'Rock Salt', 'Helvetica' , 'sans-serif';
 }
 .msg p{
     color: #fbf9ff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     color: #fbf9ff;
+    padding: 25px 50px;
 }
 footer a{
     color: #fbf9ff;
@@ -72,6 +90,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -81,4 +100,10 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
 }

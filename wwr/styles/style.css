@@ -22,6 +22,7 @@ main section{
 #background{
     height: 725px;
     background-color: #628395;
+    margin-bottom: 150px;
 }
 body{
     background-color: #fbf9ff;
@@ -49,6 +50,8 @@ nav a:hover{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #fbf9ff;
@@ -60,9 +63,10 @@ nav a:hover{
     padding: 35px;
 }
 .home-title{
-    color: black;
+    color: #628395;
     font-family: 'Rock Salt', 'Helvetica' , 'sans-serif';
     font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
@@ -79,6 +83,7 @@ h4{
 footer{
     color: #fbf9ff;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #fbf9ff;
@@ -106,4 +111,13 @@ footer p{
 }
 footer .social img{
     padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #628395;
+}
+main section img{
+    box-sizing: border-box;
 }

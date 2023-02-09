@@ -85,4 +85,5 @@ footer .social2 img{
 #content{
     max-width: 1000px;
     margin: 0 auto;
+    max-height: 1000px;
 }

@@ -87,7 +87,3 @@ footer .social2 img{
     margin: 0 auto;
     max-height: 1000px;
 }
-@media screen and (min-width:300px) and (max-width:800px) {
-    body{font-size:0.8em;}
-    sidebar{display:none;}
-    }

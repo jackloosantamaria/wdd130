@@ -82,3 +82,7 @@ footer .social2 img{
     justify-items: left;
     left: -525px;
 }
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}

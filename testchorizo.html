@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chorizos Doña Chila</title>
     <link rel="stylesheet" href="testchorizo.css"/>
- 
+    <script src="https://kit.fontawesome.com/4878f5bab2.js" crossorigin="anonymous"></script>
+    <script defer src="testchorizo.js"></script>
 </head>
 <body>
     <div id="content"></div>
-    <header>
-        <nav>
-            <a id="active" href = "http://index.html">Home</a>
-            <a href = "https://www.google.com">¿Quiénes somos?</a>
-            <a href = "https://www.google.com">Productos</a>
-            <a href = "https://www.google.com">Contáctanos</a>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Logo</a>
+            <button class="toggle" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i> <!--esto es el boton que descargamos de fontawescome.com es el boton de bars-->
+            </button>
+            <ul class="nav-menu ">
+                <li class="nav-menu-item"><a href = "#" class="nav-menu-link">Home</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link">¿Quiénes somos?</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link ">Productos</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-menu-link_active">Contáctanos</a></li>               
+            </ul>
          </nav>
     </header>
     <main>

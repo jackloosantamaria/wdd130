@@ -37,6 +37,8 @@ footer{
     font-size: 1.5em;
     line-height: 1.5em;
     width: 100%;
+    padding: 20px;
+    margin: 0 auto;
 }
 #active{
     background-color: white;
@@ -194,6 +196,9 @@ footer .social2 img{
     }
     .toggle:focus:not(:focus-visible){
         outline: none;
+    }
+    img{
+        width: 100%;
     }
 
 

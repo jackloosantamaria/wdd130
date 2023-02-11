@@ -148,7 +148,7 @@ footer .social2 img{
     display: none;
     cursor: pointer;
 }
-@media (max-width: 768px){
+@media (max-width: 479px){
 
     body{
      

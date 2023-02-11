@@ -84,12 +84,12 @@ footer .social2 img{
     justify-items: left;
     left: -525px;
 }
-#content{
+/*#content{
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
     height: auto;
-}
+}*/
 *{
     margin: 0;
     box-sizing: border-box;

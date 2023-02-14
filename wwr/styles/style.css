@@ -190,7 +190,7 @@ nav{
     opacity: .6;
     transform: scale(1.1);
 }
-@media screen and (max-wdith: 900px){
+@media screen and (max-wdith: 500px){
     #hero, .home-grid{
         display: block;
         height: auto

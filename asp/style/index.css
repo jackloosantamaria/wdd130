@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rock+Salt&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: #042a2b;
+    text-decoration: none;
+    padding: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover{
+    background-color: #e7c24f;
+    color: #042a2b;
+}#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 80px;
+}header{
+    background-color: #656e64; /*to change nav color*/
+    display: grid;
+    grid-template-columns: 150px auto;
+    box-shadow: 2px 2px 2px #656e64;
+}
+/*Area above change Nav*/
+#heroasp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*margin-top: -100px;*/
+    
+}
+#heroasp-box{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+    width: 100%;
+}#heroasp-msg{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}#heroasp-img{
+    width: 100%;
+}
+/*Area above is for image and text within image*/
+h1{
+    text-align: center;
+    grid-column: 1/5;
+    grid-row:1/2
+
+}
+h2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-indent: 1em;
+}
+body{
+    font-family: 'Caveat', 'Helvetica', 'sans-serif';
+    font-size: 22px;
+    color: #656e64;
+}
+/*Area above is for body text and color*/
+footer .social img{
+    padding-top: 15px;
+}
+footer p{
+    font-size: 1.2em;
+}footer{
+    color: #042a2b;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #656e64;
+}
+footer a{
+    color: #042a2b;
+    text-decoration: none;
+}
+footer a:hover{
+    color:black;
+    text-decoration: underline;
+}
+/*Area above is for footer*/
+.homeasp{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(7, 1fr);
+
+}
+#background{
+    height: 600px;
+    background-color: #042a2b;
+   /* margin-bottom: 150px;*/
+   grid-row:5/6;
+   grid-column:2/4;
+   width: 600px;
+   position: relative;
+   margin-left: -330px;
+
+ 
+}.homeasp p{
+    grid-row: 3/4;
+    grid-column: 1/5;
+}.portable_sheds{
+    grid-row:4/5;
+    grid-column:4/5;
+    z-index: 1;
+    height: 140px;
+    margin-left: -430px;
+    position: relative;
+}.fence_image{
+    grid-row:5/7;
+    margin-left: 50px;
+    position: relative;
+    z-index: -1; 
+    margin-top: 450px;
+    grid-column: 1/2;
+}.card-image{
+    width: 600px;
+    position: relative;
+    border: 10px solid #e7c24f;
+}#background h3, #background p{
+    color: white;
+}#background h3:nth-last-of-type(1){
+    text-align: left;
+    margin-top: 350px;
+    text-indent: 1em;
+}#background h3:nth-last-of-type(2){
+    text-indent: 6em;
+}
+#background p:nth-last-of-type(2){
+    text-indent: 2em;
+}#background p:nth-last-of-type(1){
+    text-indent: 1em;
+}

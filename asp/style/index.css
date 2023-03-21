@@ -145,3 +145,90 @@ footer a:hover{
 }#background p:nth-last-of-type(1){
     text-indent: 1em;
 }
+/*Below is info of subpage 1 Ourvision*/
+#ourvision-msg h1{
+    text-align: left;
+    text-indent: 1em;
+}
+h2{
+    text-align: left;
+}
+.background41{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}#background3{
+    grid-column: 3/4;
+    grid-row: 1/4;
+    margin-left: 50px;
+    font-size: 33px;
+    margin-top: 28px;
+    background-color: #042a2b;
+    height: 700px;
+    
+}.first_par{
+    grid-column: 1/3;
+}.second_par{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-left: 60px;
+}.middle_title{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}#background2{
+    background-color: #e7c24f;
+    width: 50px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 185px;
+    margin-top: 30px;
+}#background3 p{
+    color: white;
+}#background4{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 70px;
+    background-color: #656e64;
+}.card-image2{
+    width: 685px;
+    border: 10px solid #e7c24f;
+}.card-image21{
+    width: 500px;
+    border: 10px solid #e7c24f;
+}.image1_ourvision{
+    grid-column: 2/3;
+    grid-gap: 4000px;
+    margin-left: -5px;
+    margin-top: 50px;
+}.image2_ourvision{
+    grid-column: 4/5;
+    margin-right: -30px;
+    margin-top: 50px;
+}#background4 h2{
+    color: #e7c24f;
+    font-size: 50px;
+    text-align: center;
+    
+}.title{
+    
+    grid-column: 2/5;
+    grid-row: 2/3;
+
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #656e64;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    margin: 25px;
+border-radius: 5px;
+
+  }
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
